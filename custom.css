@@ -1,0 +1,248 @@
+@charset "UTF-8";
+/*page sections*/
+body {
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1, h2, h3, h4, strong, figcaption {
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+header {
+  background-color: #D7D7D9;
+}
+#banner {
+  background-color: #F2E4E8;
+}
+#pots {
+  background-color: #EBC3C4;
+}
+#instagram {
+  background-color: #F2E4E8;
+}
+#workshop {
+  background-color: #455955;
+}
+footer {
+  background-color: #D7D7D9;
+}
+/*header*/
+header ul#social {
+  margin: 0;
+  padding: 0;
+}
+header ul#social li {
+  display: inline;
+  list-style-type: none;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+header .container {
+  padding: 40px 0;
+  position: relative;
+}
+@media (max-width: 767px) {
+  header #logo {
+    display: block;
+    margin: 0 auto;
+  }
+  header ul#social {
+    text-align: center;
+  }
+  header #address {
+    text-align: center;
+    line-height: 2;
+    color: #3C3459;
+  }
+}
+@media (min-width: 768px) {
+  ul#social {
+    position: absolute;
+    top: 80px;
+    right: 0px;
+  }
+  #address {
+    font-size: 16px;
+    position: absolute;
+    bottom: 80px;
+    right: 10px;
+    color: #3C3459;
+  }
+}
+/*banner*/
+#banner h1 {
+  color: #554A59;
+  padding-bottom: 15px;
+}
+figure {
+  position: relative;
+}
+figcaption {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+}
+figcaption span {
+  color: white;
+  font-size: 24px;
+  line-height: 45px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+figcaption span.spacer {
+  padding: 0 2px;
+  background: none;
+}
+#banner .container {
+  padding-bottom: 40px;
+  padding-top: 15px;
+}
+/*pots*/
+#pots h2 {
+  color: #554A59;
+  padding-top: 15px;
+}
+#pots img {
+  margin: 10px auto 10px auto;
+}
+#pots {
+  position: relative;
+  padding-bottom: 80px;
+}
+#tagline {
+  position: absolute;
+  bottom: -25px;
+  right: 15px;
+  font-size: 85px;
+  line-height: 1;
+  text-align: right;
+  color: #3C3459;
+}
+/*instagram*/
+#instagram h2 {
+  color: #455955;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+#instagram img {
+  border: 10px double #BF8E97;
+  margin-bottom: 30px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #instagram1 {
+    position: relative;
+  }
+  #instagram2 {
+    position: relative;
+  }
+  #instagram3 {
+    position: relative;
+    left: 40px;
+  }
+  #instagram4 {
+    position: relative;
+    top: 80px;
+  }
+  #instagram5 {
+    position: relative;
+  }
+  #instagram6 {
+    position: relative;
+  }
+  #instagram7 {
+    position: relative;
+  }
+}
+@media (min-width: 992px) {
+  #instagram1 {
+    position: relative;
+    top: 35px;
+  }
+  #instagram2 {
+    position: relative;
+    top: 35px;
+  }
+  #instagram3 {
+    position: relative;
+  }
+  #instagram4 {
+    position: relative;
+    top: 10px;
+  }
+  #instagram5 {
+    position: relative;
+  }
+  #instagram6 {
+    position: relative;
+    top: 15px;
+  }
+  #instagram7 {
+    position: relative;
+    top: 30px;
+  }
+  #instagram8 {
+    position: relative;
+  }
+  #instagram9 {
+    position: relative;
+    top: 40px;
+  }
+}
+/*workshop*/
+#workshop h2 {
+  color: #EBC3C4;
+  padding-bottom: 10px;
+}
+#workshop a:link {
+  color: #BF8E97;
+}
+#workshop a:hover {
+  color: #EBC3C4;
+}
+#workshop p {
+  color: #D7D7D9;
+}
+#workshop .container {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+/*footer*/
+footer ul.social {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+footer ul.social li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#asterisk {
+  position: absolute;
+  top: -95px;
+  left: 0px;
+  font-size: 150px;
+  line-height: 1;
+  color: #D7D7D9;
+}
+footer .container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+}
+footer p {
+  color: #3C3459;
+}
+footer h4 {
+  color: #455955;
+}
+footer a:link {
+  color: #BF8E97;
+}
+footer a:hover {
+  color: #554A59;
+}
